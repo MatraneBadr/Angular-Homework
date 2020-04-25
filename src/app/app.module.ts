@@ -2,13 +2,19 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { ApiModule } from 'angular-client';
+import { HttpClientModule } from '@angular/common/http';
+import { ListBurgersComponent } from './list-burgers/list-burgers.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListBurgersComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ApiModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
