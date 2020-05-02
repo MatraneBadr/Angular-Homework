@@ -1,4 +1,10 @@
-.card-list-burger {
-    max-width: 400px;
-    background-color: #F0FFFF;
-  }
+.toolbar {
+  height: 60px;
+  padding-left: 20px;
+  margin-bottom: 30px;;
+  display: flex;
+  align-items: center;
+  background-color:#00BFFF;
+  color: black;
+  font-weight: 600;
+}
